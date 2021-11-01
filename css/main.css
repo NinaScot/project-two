@@ -13,7 +13,7 @@ element {
   --font-style-normal: normal;
   --font-weight-black: 900px;
   --font-weight-bold: bold;
-  --font-weight-normal: normal;
+--font-weight-normal: normal;
 
   --Mobile-h1-size-and-Desktop-quote-size: 40px;
   --Mobile-h2-size: 35px;
@@ -27,6 +27,142 @@ element {
   --Desktop-navbar-size: 48px;
   --Desktop-body-size: 30px;
 }
+
+/* Character Styles */
+.mobile-h1 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-black);
+  font-size: var(--Mobile-h1-size-and-Desktop-quote-size);
+  line-height: var(--unnamed-line-spacing-50);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .mobile-h2 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--Mobile-h2-size);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--bright-green);
+  }
+  .mobile-h2 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--Mobile-h2-size);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--dark-green);
+  }
+  .mobile-h3 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--Mobile-h3-size);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .mobile-body-text {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var( --Mobile-body-size);
+  line-height: var(--unnamed-line-spacing-25);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .mobile-body-text {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var( --Mobile-body-size);
+  line-height: var(--unnamed-line-spacing-25);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--blue-black);
+  }
+  .mobile-quote-text {
+  font-family: var(--font);
+  font-style: var(--font-style-italic);
+  font-weight: var(--font-weight-bold);
+  font-size: var( --Mobile-quote-txt-size);
+  line-height: var(--unnamed-line-spacing-25);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--bright-pink);
+  }
+  .desktop-h1 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-black);
+  font-size: var(  --Desktop-h1-size);
+  line-height: var(--unnamed-line-spacing-95);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .desktop-h2 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var( --Desktop-h2-size);
+  line-height: var(--unnamed-line-spacing-75);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--dark-green);
+  }
+  .desktop-h2 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var( --Desktop-h2-size);
+  line-height: var(--unnamed-line-spacing-75);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--bright-green);
+  }
+  .desktop-h3 {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--Desktop-h3-size);
+  line-height: var(--unnamed-line-spacing-75);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .desktop-body-text {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--Desktop-body-size);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .desktop-body-text {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--Desktop-body-size);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--blue-black);
+  }
+  .desktop-navbar-font {
+  font-family: var(--font);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--Desktop-navbar-size);
+  line-height: var(--unnamed-line-spacing-67);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--cream-white);
+  }
+  .desktop-quote-text {
+  font-family: var(--font);
+  font-style: var(--font-style-italic);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--Mobile-h1-size-and-Desktop-quote-size);
+  line-height: var(--unnamed-line-spacing-56);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--bright-pink);
 /* Decent Defaults */
 body {
   margin: 0;
