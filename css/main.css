@@ -1,7 +1,59 @@
 /* Decent Defaults */
+body {
+  margin: 0;
+}
 
-img,
-video {
-  width: 100%;
-  height: auto;
+nav.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.15);
+  min-height: 2.25rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  display: flex;
+}
+
+/* Mobile Only */
+@media (max-width: 39.9375em) {
+  .navbar ul {
+    display: none;
+    background: #efefef;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .navbar ul.active {
+    display: flex;
+  }
+}
+
+/* Desktop Only */
+@media (min-width: 40em) {
+  .navbar button {
+    display: none;
+  }
+  .navbar ul {
+    display: flex;
+    gap: 1rem;
+  }
 }
