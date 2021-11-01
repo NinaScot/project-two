@@ -1,6 +1,36 @@
+/* variables */
+element {
+  --blue-black: #1e223b;
+  --cream-white: #fdf8ed;
+  --bright-green: #91fdcf;
+  --money-green: #00b289;
+  --dark-green: #078366;
+  --electic-blue: #1fe5ff;
+  --bright-pink: #ff1f75;
+
+  --font: Vollkorn;
+  --font-style-italic: italic;
+  --font-style-normal: normal;
+  --font-weight-black: 900px;
+  --font-weight-bold: bold;
+  --font-weight-normal: normal;
+
+  --Mobile-h1-size-and-Desktop-quote-size: 40px;
+  --Mobile-h2-size: 35px;
+  --Mobile-h3-size: 25px;
+  --Mobile-body-size: 15px;
+  --Mobile-quote-txt-size: 18px;
+
+  --Desktop-h1-size: 90px;
+  --Desktop-h2-size: 80px;
+  --Desktop-h3-size: 55px;
+  --Desktop-navbar-size: 48px;
+  --Desktop-body-size: 30px;
+}
 /* Decent Defaults */
 body {
   margin: 0;
+  background-color: blue;
 }
 
 nav.navbar {
