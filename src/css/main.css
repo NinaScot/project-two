@@ -315,8 +315,8 @@ a:active {
 
 div.NYCCard {
   text-align: center;
-  border-radius: 2rem;
-  background-color: var(--dark-green);
+  border-radius: 1rem;
+  background-color: var(--money-green);
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -333,8 +333,8 @@ div.NYCCard:active {
 }
 div.MECard {
   text-align: center;
-  border-radius: 2rem;
-  background-color: var(--dark-green);
+  border-radius: 1rem;
+  background-color: var(--money-green);
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -345,8 +345,8 @@ div.MECard {
 }
 div.CACard {
   text-align: center;
-  border-radius: 2rem;
-  background-color: var(--dark-green);
+  border-radius: 1rem;
+  background-color: var(--money-green);
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -357,8 +357,8 @@ div.CACard {
 }
 div.COCard {
   text-align: center;
-  border-radius: 2rem;
-  background-color: var(--dark-green);
+  border-radius: 1rem;
+  background-color: var(--money-green);
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -369,8 +369,8 @@ div.COCard {
 }
 div.NECard {
   text-align: center;
-  border-radius: 2rem;
-  background-color: var(--dark-green);
+  border-radius: 1rem;
+  background-color: var(--money-green);
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -381,8 +381,8 @@ div.NECard {
 }
 div.PACard {
   text-align: center;
-  border-radius: 2rem;
-  background-color: var(--dark-green);
+  border-radius: 1rem;
+  background-color: var(--money-green);
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
