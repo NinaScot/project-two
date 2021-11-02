@@ -301,9 +301,6 @@ a:active {
 .moneytree h3 {
   max-width: 450px;
 }
-.gradient {
-  background-image: linear-gradient(red, yellow);
-}
 .ProgramCards {
   padding: 5rem;
 }
@@ -552,10 +549,15 @@ article {
 @media (min-width: 65em) {
   .moneytree {
     min-height: 90vh;
-    background-image: url("../Assets/Tree graphic.png");
+    background-image: url("../Assets/final_freaking_tree_graphic.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
+  }
+  .gradient {
+    background: linear-gradient(var(--bright-pink), var(--blue-black));
+    height: 400px;
+    width: 100%;
   }
 }
 
