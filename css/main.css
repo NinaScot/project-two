@@ -500,7 +500,9 @@ footer ul {
     padding: 5rem;
   }
 }
-
+article {
+  padding: 5rem;
+}
 /* desktop only */
 @media (min-width: 40em) {
   h1 {
