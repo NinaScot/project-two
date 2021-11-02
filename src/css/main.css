@@ -448,6 +448,24 @@ Article p {
   height: auto;
   min-width: 200px;
 }
+.question {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background-color: var(--blue-black);
+  border-radius: 5rem;
+}
+.planpage {
+  background-color: var(--money-green);
+}
+.NYCButton {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+.NYPicturePlan {
+  height: auto;
+}
 /* Mobile Only */
 @media (max-width: 39.9375em) {
   h1 {
