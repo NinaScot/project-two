@@ -254,7 +254,7 @@ button {
   background: #1b3041 0% 0% no-repeat padding-box;
   border-radius: 53px;
   opacity: 1;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
 }
 Button a {
   color: var(--bright-pink);
@@ -464,11 +464,11 @@ footer ul {
     top: 0;
   }
   svg:hover {
-    color: var(--electic-blue)
+    color: var(--electic-blue);
   }
 
   svg:active {
-    color:var(--bright-green)
+    color: var(--bright-green);
   }
   .nytlogo {
     padding: 0.25rem;
@@ -558,4 +558,5 @@ footer ul {
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
+  }
 }
