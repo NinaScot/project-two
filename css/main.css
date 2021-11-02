@@ -307,7 +307,6 @@ a:active {
 
 .cardstitle {
   padding: 5rem;
-  margin: 0;
 }
 
 section.ProgramCards {
@@ -315,9 +314,14 @@ section.ProgramCards {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 5rem;
-  margin: none;
+  row-gap: 1em;
+}
+.ProgramCards h3 {
+  margin: 1rem;
 }
 
+.ProgramCards img {
+}
 div.NYCCard {
   text-align: center;
   border-radius: 2rem;
@@ -329,6 +333,12 @@ div.NYCCard {
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
+}
+div.NYCCard:hover {
+  transform: scale(1.15);
+}
+div.NYCCard:active {
+  transform: scale(50%);
 }
 .NYPicture {
   width: 100%;
