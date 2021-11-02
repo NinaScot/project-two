@@ -309,13 +309,6 @@ a:active {
   padding: 5rem;
 }
 
-section.ProgramCards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  padding: 5rem;
-  row-gap: 1em;
-}
 .ProgramCards h3 {
   margin: 1rem;
 }
@@ -324,10 +317,6 @@ div.NYCCard {
   text-align: center;
   border-radius: 2rem;
   background-color: var(--dark-green);
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 2;
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -346,10 +335,6 @@ div.MECard {
   text-align: center;
   border-radius: 2rem;
   background-color: var(--dark-green);
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 2;
-  grid-column-end: 3;
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -362,10 +347,6 @@ div.CACard {
   text-align: center;
   border-radius: 2rem;
   background-color: var(--dark-green);
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 2;
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -378,10 +359,6 @@ div.COCard {
   text-align: center;
   border-radius: 2rem;
   background-color: var(--dark-green);
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 3;
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -394,10 +371,6 @@ div.NECard {
   text-align: center;
   border-radius: 2rem;
   background-color: var(--dark-green);
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 2;
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -410,10 +383,6 @@ div.PACard {
   text-align: center;
   border-radius: 2rem;
   background-color: var(--dark-green);
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 3;
   max-width: 500px;
   overflow: hidden;
   max-height: 400px;
@@ -506,6 +475,7 @@ footer ul {
   .moneytree h3 {
     max-width: 250px;
   }
+  
 }
 
 /* desktop only */
@@ -540,4 +510,46 @@ footer ul {
     display: flex;
     gap: 1rem;
   }
+  section.ProgramCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5rem;
+    row-gap: 1rem;
+  }
+  div.NYCCard {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  div.MECard {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  div.CACard {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  div.COCard {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  div.NECard {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  div.PACard {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
