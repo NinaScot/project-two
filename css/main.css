@@ -227,7 +227,10 @@ nav.navbar {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
+}
+nav img {
+  max-width: 20px;
+  max-height: 20px;
 }
 .nytlogo {
   font-style: var(--font-style-italic);
@@ -244,6 +247,9 @@ nav.navbar {
   background: none;
   border: none;
   display: flex;
+}
+.specialintro {
+  text-shadow: 2px 2px var(--bright-green);
 }
 /* buttons */
 button {
@@ -511,7 +517,9 @@ Article p {
   }
   .navbar ul.active {
     display: flex;
+    background-color: var(--dark-green);
   }
+
   svg {
     color: var(--bright-pink);
     display: flex;
@@ -546,10 +554,10 @@ article {
   padding: 5rem;
 }
 
-@media (min-width: 65em) {
+@media (min-width: 45em) {
   .moneytree {
     min-height: 90vh;
-    background-image: url("../Assets/final_freaking_tree_graphic.png");
+    background-image: url("../Assets/money_tree_final_graphic.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
