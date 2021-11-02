@@ -395,12 +395,19 @@ div.PACard {
 .Watchdirect {
   padding: 5rem;
 }
+.Watchdirect span {
+  color: var(--money-green);
+}
 
 .Watchdirect img {
   width: auto;
   height: auto;
 }
-
+.Watchdirect img:hover {
+  width: auto;
+  height: auto;
+  filter: brightness(30%);
+}
 footer {
   background-color: darkslategrey;
   padding: 3rem;
