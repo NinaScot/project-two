@@ -424,6 +424,23 @@ footer ul {
 .WatchTitle {
   padding: 5rem;
 }
+.Author {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+Article img {
+  height: auto;
+}
+Article p {
+  max-width: 700px;
+
+  margin-left: 100px;
+}
+.childrenreading {
+  height: auto;
+  min-width: 200px;
+}
 /* Mobile Only */
 @media (max-width: 39.9375em) {
   h1 {
@@ -524,8 +541,8 @@ article {
     font-size: var(--Desktop-body-size);
   }
   h4 {
-    font-size: var(--Mobile-h1-size-and-Desktop-quote-size);
-    line-height: var(--unnamed-line-spacing-56);
+    font-size: 35px;
+    line-height: 45px;
     letter-spacing: var(--unnamed-character-spacing-0);
   }
   .navbar button {
