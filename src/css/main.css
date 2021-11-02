@@ -400,6 +400,7 @@ div.PACard {
   width: auto;
   height: auto;
 }
+
 footer {
   background-color: darkslategrey;
   padding: 3rem;
@@ -409,6 +410,19 @@ footer ul {
   flex-direction: column;
   justify-content: space-between;
   list-style: none;
+}
+.videocard {
+  padding: 5rem;
+}
+
+.videocard iframe {
+  height: auto;
+  width: auto;
+  min-height: 300px;
+  min-width: 400px;
+}
+.WatchTitle {
+  padding: 5rem;
 }
 /* Mobile Only */
 @media (max-width: 39.9375em) {
@@ -481,6 +495,9 @@ footer ul {
   }
   .moneytree h3 {
     max-width: 250px;
+  }
+  .videocard {
+    padding: 5rem;
   }
 }
 
@@ -558,5 +575,23 @@ footer ul {
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
+  }
+}
+/*watch page */
+@media (min-width: 60em) {
+  .videocard {
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+  }
+  .videocard p {
+    padding: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .videocard iframe {
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 }
