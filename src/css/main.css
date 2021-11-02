@@ -281,6 +281,9 @@ a:active {
 }
 .moneytree {
   padding: 5rem;
+}
+
+.moneytree div {
   max-width: 700px;
 }
 .moneytree h1 {
@@ -317,7 +320,6 @@ div.NYCCard {
   text-align: center;
   border-radius: 1rem;
   background-color: var(--money-green);
-  max-width: 500px;
   overflow: hidden;
   max-height: 400px;
 }
@@ -330,66 +332,67 @@ div.NYCCard:active {
 .NYPicture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 div.MECard {
   text-align: center;
   border-radius: 1rem;
   background-color: var(--money-green);
-  max-width: 500px;
   overflow: hidden;
   max-height: 400px;
 }
 .MEPicture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 div.CACard {
   text-align: center;
   border-radius: 1rem;
   background-color: var(--money-green);
-  max-width: 500px;
   overflow: hidden;
   max-height: 400px;
 }
 .CAPicture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 div.COCard {
   text-align: center;
   border-radius: 1rem;
   background-color: var(--money-green);
-  max-width: 500px;
   overflow: hidden;
   max-height: 400px;
 }
 .COPicture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 div.NECard {
   text-align: center;
   border-radius: 1rem;
   background-color: var(--money-green);
-  max-width: 500px;
   overflow: hidden;
   max-height: 400px;
 }
 .NEPicture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 div.PACard {
   text-align: center;
   border-radius: 1rem;
   background-color: var(--money-green);
-  max-width: 500px;
   overflow: hidden;
   max-height: 400px;
 }
 .PAPicture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .Watchdirect {
@@ -441,8 +444,8 @@ Article img {
 }
 Article p {
   max-width: 700px;
-
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .childrenreading {
   height: auto;
@@ -545,6 +548,17 @@ Article p {
 article {
   padding: 5rem;
 }
+
+@media (min-width: 65em) {
+  .moneytree {
+    min-height: 90vh;
+    background-image: url("../Assets/Tree graphic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+}
+
 /* desktop only */
 @media (min-width: 40em) {
   h1 {
@@ -582,43 +596,9 @@ article {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 5rem;
-    row-gap: 1rem;
-  }
-  div.NYCCard {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  div.MECard {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-  div.CACard {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  div.COCard {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-  div.NECard {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  div.PACard {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 /*watch page */
