@@ -320,8 +320,6 @@ section.ProgramCards {
   margin: 1rem;
 }
 
-.ProgramCards img {
-}
 div.NYCCard {
   text-align: center;
   border-radius: 2rem;
@@ -425,6 +423,14 @@ div.PACard {
   height: 100%;
 }
 
+.Watchdirect {
+  padding: 5rem;
+}
+
+.Watchdirect img {
+  width: auto;
+  height: auto;
+}
 footer {
   background-color: darkslategrey;
   padding: 3rem;
