@@ -23,11 +23,11 @@
   --Mobile-body-size: 15px;
   --Mobile-quote-txt-size: 18px;
 
-  --Desktop-h1-size: 90px;
-  --Desktop-h2-size: 80px;
-  --Desktop-h3-size: 55px;
+  --Desktop-h1-size: 60px;
+  --Desktop-h2-size: 50px;
+  --Desktop-h3-size: 45px;
   --Desktop-navbar-size: 48px;
-  --Desktop-body-size: 30px;
+  --Desktop-body-size: 20px;
 
   --unnamed-character-spacing-0: 0px;
   --unnamed-line-spacing-25: 25px;
@@ -279,17 +279,12 @@ a:hover {
 a:active {
   color: var(--blue-black);
 }
-
 .moneytree {
-  background-image: url("./Assets/Tree graphic.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   padding: 5rem;
-  max-width: 1000px;
+  max-width: 700px;
 }
 .moneytree h1 {
-  max-width: 600px;
+  max-width: 400px;
 }
 .moneytree h1 span {
   color: var(--dark-green);
@@ -301,7 +296,7 @@ a:active {
   color: var(--bright-green);
 }
 .moneytree h3 {
-  max-width: 600px;
+  max-width: 450px;
 }
 .gradient {
   background-image: linear-gradient(red, yellow);
@@ -310,6 +305,126 @@ a:active {
   padding: 5rem;
 }
 
+.cardstitle {
+  padding: 5rem;
+  margin: 0;
+}
+
+section.ProgramCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 5rem;
+  margin: none;
+}
+
+div.NYCCard {
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--dark-green);
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 500px;
+  overflow: hidden;
+  max-height: 400px;
+}
+.NYPicture {
+  width: 100%;
+  height: 100%;
+}
+div.MECard {
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--dark-green);
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 500px;
+  overflow: hidden;
+  max-height: 400px;
+}
+.MEPicture {
+  width: 100%;
+  height: 100%;
+}
+div.CACard {
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--dark-green);
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 500px;
+  overflow: hidden;
+  max-height: 400px;
+}
+.CAPicture {
+  width: 100%;
+  height: 100%;
+}
+div.COCard {
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--dark-green);
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 500px;
+  overflow: hidden;
+  max-height: 400px;
+}
+.COPicture {
+  width: 100%;
+  height: 100%;
+}
+div.NECard {
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--dark-green);
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 500px;
+  overflow: hidden;
+  max-height: 400px;
+}
+.NEPicture {
+  width: 100%;
+  height: 100%;
+}
+div.PACard {
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--dark-green);
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 500px;
+  overflow: hidden;
+  max-height: 400px;
+}
+.PAPicture {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: darkslategrey;
+  padding: 3rem;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
 /* Mobile Only */
 @media (max-width: 39.9375em) {
   h1 {
@@ -366,23 +481,32 @@ a:active {
   .nytlogo {
     padding: 0.25rem;
   }
+  .moneytree {
+    max-width: 450px;
+  }
+  .moneytree h1 {
+    max-width: 600px;
+  }
+  .moneytree h3 {
+    max-width: 250px;
+  }
 }
 
 /* desktop only */
 @media (min-width: 40em) {
   h1 {
     font-size: var(--Desktop-h1-size);
-    line-height: var(--unnamed-line-spacing-95);
+    line-height: 1em;
     letter-spacing: var(--unnamed-character-spacing-0);
   }
   h2 {
     font-size: var(--Desktop-h2-size);
-    line-height: var(--unnamed-line-spacing-75);
+    line-height: 1em;
     letter-spacing: var(--unnamed-character-spacing-0);
   }
   h3 {
     font-size: var(--Desktop-h3-size);
-    line-height: var(--unnamed-line-spacing-75);
+    line-height: 1em;
     letter-spacing: var(--unnamed-character-spacing-0);
   }
   body {
@@ -399,18 +523,5 @@ a:active {
   .navbar ul {
     display: flex;
     gap: 1rem;
-  }
-  .Programcards {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-  .NYCCard {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
   }
 }
